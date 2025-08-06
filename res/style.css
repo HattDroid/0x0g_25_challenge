@@ -1,0 +1,29 @@
+body {
+	background-color:	black;
+	font-family:	'wb', Fallback, sans-serif;
+	color:			GhostWhite;
+	overflow-x:		hidden;	
+	position:		relative;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+#main_text{
+	font-size: 27px;
+
+}
+
+#logo_25 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}
+
+@font-face {
+	font-family:		'wb';
+	src:			url('./wb.ttf') format('truetype');
+}
